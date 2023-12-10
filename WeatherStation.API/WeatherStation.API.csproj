@@ -9,7 +9,10 @@
   <ItemGroup>
     <PackageReference Include="LiteDB" Version="5.0.17" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
-    <PackageReference Include="WeatherStation.API.Common" Version="1.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WeatherStation.API.Common\WeatherStation.API.Common.csproj" />
   </ItemGroup>
 
 </Project>
